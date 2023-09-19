@@ -15,3 +15,6 @@ Para adicionar tarefas, o usuário só precisa digitar uma descrição, apontar 
 Na tabela de atividades, o usuário só precisa clicar no "X" para remover a tarefa.
 
 Para executar o servidor Flask, clonar o repositório X e seguir as instruções do README.md.
+
+## Como executar o back-end?
+Confira as instruções no seguinte repositório: https://github.com/brunodeblasi/MVP_1---Back

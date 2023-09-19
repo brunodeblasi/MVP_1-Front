@@ -1,0 +1,248 @@
+/* Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    list-style-type: none;
+}
+
+/* Heading */
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 26px;
+}
+
+h5 {
+    font-size: 24px;
+}
+
+h6 {
+    font-size: 20px;
+}
+
+/* Body settings */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #000;
+    font-size: 12px;
+}
+
+#container {
+    width: 60%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px; 
+}
+
+/* Header */
+
+#head { 
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.head_logo {
+    display: inline-block;
+}
+
+.head_logo h1 {
+    font-size: 40px;
+    float: left;
+    margin-top: 7px;
+    font-weight: bold;
+}
+
+.head_logo h2 {
+    font-size: 18px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 10px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.head_logo img {
+    margin-right: 20px;
+    width: 60px;
+    float: left;
+}
+
+/* Section: App Formulário */
+#app-form {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+#app-form h3 {
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.app-form-formulario {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.newItem:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#newInput {
+    margin: 0;
+    border: 0px;
+    width: 45%;
+    margin-right: 15px;
+    border-bottom: 1px solid #b5b5b5;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#newPrazo {
+    margin: 0;
+    border: 0px;
+    width: 30%;
+    margin-right: 15px;
+    border-bottom: 1px solid #b5b5b5;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.icon-check {
+    width: 40px;
+    margin-bottom: -13px;
+    filter: invert(45%) sepia(34%) saturate(3915%) hue-rotate(188deg) brightness(105%) contrast(91%);
+}
+
+.icon-check:hover {
+    filter: invert(13%) sepia(65%) saturate(6165%) hue-rotate(196deg) brightness(98%) contrast(97%);
+}
+
+/* Section: App Lista */
+#app-lista {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#app-lista h3 {
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.items {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.close:hover {
+    color: #f44336;
+    font-weight: bolder;
+}
+
+table,
+th,
+td {
+    border: 0;
+    position: relative;
+    padding: 12px 8px 12px 10px;
+    font-size: 16px;
+    font-weight: normal;
+    transition: 0.2s;
+}
+
+table{
+    background-color: white;
+    width: 100%;
+}
+
+tr {
+    margin: 0;
+}
+
+th {
+    background: #eee;
+}
+
+th:nth-child(1){
+    width: 60%;
+    text-align: center;
+    font-weight: bold;
+}
+
+th:nth-child(2){
+    text-align: center;
+    font-weight: bold;
+}
+
+th:nth-child(3){
+    text-align: center;
+    font-weight: bold;
+    width: 5%;
+}
+
+td {
+    border-bottom: 1px #b5b5b5 solid;
+    font-size: 16px;
+}
+
+table td + td + td {
+    text-align: center;
+}
+
+/* Footer */
+#site_footer {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #b5b5b5;
+    border-top: #b5b5b5 1px solid;
+    padding-top: 10px;
+}

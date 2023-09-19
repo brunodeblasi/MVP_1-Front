@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Taskr</title>
+</head>
+    <div id="container">
+        <header id="head">            
+            <div class="head_logo">
+                <img src="img/logo.png">
+                </figure>
+                <h1>Taskr</h1>
+                <h2>Seu dia a dia mais organizado</h2>
+            </div>
+        </header>
+
+        <section id="app-form">
+            <h3>Insira uma nova tarefa</h3>
+            <div class="app-form-formulario">
+                <input type="text" id="newInput" placeholder="Descrição">
+                <input type="text" id="newPrazo" placeholder="Prazo">
+                <span onclick="newItem()" class="addBtn">
+                    <img src="img/check.svg" class="icon-check" />
+                    </svg>
+                </span>
+            </div>
+        </section>
+
+        <section id="app-lista">
+            <h3>Confira suas pendências</h3>
+            <table id="app-tarefas">
+                <tr>
+                    <th>Descrição</th>
+                    <th>Prazo</th>
+                    <th>Remover?</th>
+                </tr>
+            </table>
+        </section>
+        
+        <footer id="site_footer">
+            <p>Desenvolvido por Bruno De Blasi para a pós-graduação de Desenvolvimento Full Stack da PUC-Rio.</p>
+        </footer>
+    </div>
+<body> 
+
+</body>
+</html>
